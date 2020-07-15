@@ -1,0 +1,25 @@
+{
+  "name": "passport-jwt-firebase",
+  "version": "1.0.0",
+  "description": "An Interface to Support JWT Auth with Passport in Express",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": ["passport", "jwt", "passport-jwt", "auth"],
+  "author": "Pratik Chowdhury (pratikc@live.co.uk)",
+  "license": "MIT",
+  "dependencies": {
+    "@firebase/auth-types": "^0.10.1",
+    "@types/passport": "^1.0.4",
+    "@types/passport-jwt": "^3.0.3",
+    "axios": "^0.19.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  }
+}
