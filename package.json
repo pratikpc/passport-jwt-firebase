@@ -12,14 +12,12 @@
   "author": "Pratik Chowdhury (pratikc@live.co.uk)",
   "license": "MIT",
   "dependencies": {
-    "@firebase/auth-types": "^0.10.1",
-    "@types/passport": "^1.0.4",
     "@types/passport-jwt": "^3.0.3",
-    "axios": "^0.19.2",
-    "passport": "^0.4.1",
+    "node-fetch": "^2.6.0",
     "passport-jwt": "^4.0.0"
   },
   "devDependencies": {
-    "typescript": "^3.9.6"
+    "@types/node-fetch": "^2.5.7",
+    "typescript": "^3.9.7"
   }
 }
